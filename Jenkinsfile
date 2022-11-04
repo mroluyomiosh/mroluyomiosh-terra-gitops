@@ -46,7 +46,7 @@ pipeline{
         }
         stage("Manual Approval"){
             steps{
-                input 'Approval Required for deployment'
+                input 'Approval required for deployment'
             }
         }
         stage("Terraform Apply"){
