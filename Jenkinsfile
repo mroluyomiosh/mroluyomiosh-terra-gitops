@@ -2,7 +2,9 @@ def COLOR_MAP = [
     'SUCCESS': 'good',
     'FAILURE': 'danger',
 ]
-
+ProductName="abc"
+ApplicationName="xyz"
+TestApplicationName="uvw"
 pipeline{
     agent any
     stages{
